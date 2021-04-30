@@ -100,18 +100,7 @@
 		"configFile": "E:/tanwan-file/tool-library/IDE/.eslintrc.js",
 		"plugins": ["html"]
 	},
-	"eslint.validate": [
-		"javascript",
-		"javascriptreact",
-		{
-			"language": "html",
-			"autoFix": true
-		},
-		{
-			"language": "vue",
-			"autoFix": true
-		}
-	],
+	"eslint.validate": ["javascript", "javascriptreact", "html", "vue"],
 	"eslint.probe": ["javascript", "javascriptreact", "typescript", "typescriptreact", "html", "vue", "markdown"],
 	"eslint.alwaysShowStatus": true,
 	"eslint.packageManager": "yarn",
@@ -158,7 +147,7 @@
 		"prettier": {
 			"printWidth": 120,
 			"tabWidth": 2 /* Specify the number of spaces per indentation-level. */,
-			"useTabs": true /* Indent lines with tabs instead of spaces. */,
+			"useTabs": false /* Indent lines with tabs instead of spaces. */,
 			// Print semicolons at the ends of statements.
 			"semi": true,
 			"singleQuote": true,
@@ -176,7 +165,7 @@
 			"arrowParens": "always",
 			/* Range start */
 			"rangeStart": 0,
-			"rangeEnd": Infinity,
+			// "rangeEnd": Infinity,
 			/* Range end */
 			// parser:'babylon', /* 默认不打开 */
 			/* 
@@ -210,7 +199,7 @@
 	"prettier": {
 		"printWidth": 120,
 		"tabWidth": 2 /* Specify the number of spaces per indentation-level. */,
-		"useTabs": true /* Indent lines with tabs instead of spaces. */,
+		"useTabs": false /* Indent lines with tabs instead of spaces. */,
 		// Print semicolons at the ends of statements.
 		"semi": true,
 		"singleQuote": true,
@@ -228,7 +217,7 @@
 		"arrowParens": "always",
 		/* Range start */
 		"rangeStart": 0,
-		"rangeEnd": Infinity,
+		// "rangeEnd": Infinity,
 		/* Range end */
 		// parser:'babylon', /* 默认不打开 */
 		/* 
@@ -256,7 +245,7 @@
 		"end_with_newline": true
 		// for IDE attriubte end
 	},
-	"prettier.configPath": "E:\\tanwan-file\\tool-library\\IDE\\prettier.config.js",
+	// "prettier.configPath": "E:\\tanwan-file\\tool-library\\IDE\\prettier.config.js",
 	// prettier end
 	// stylus start
 	"stylusSupremacy.insertColons": false, // 是否插入冒号
