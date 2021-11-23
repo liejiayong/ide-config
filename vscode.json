@@ -252,6 +252,7 @@
   "stylusSupremacy.insertNewLineAroundBlocks": false, // 两个选择器中是否换行
   // stylus end
   // fileheader start
+  // 快捷方式如果没响应则需要在vscode键盘快捷方式搜索cursorTip查看快键键
   // fileheader 文件头部注释 快捷键：window：ctrl+alt+i,mac：ctrl+cmd+i
   "fileheader.customMade": {
     "Description": "",
