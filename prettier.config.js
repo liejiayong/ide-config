@@ -69,7 +69,7 @@ module.exports = {
     'error',
     {
       ignoreWhenEmpty: true,
-      ignores: ['pre', 'textarea', ...INLINE_ELEMENTS],
+      ignores: ['pre', ...INLINE_ELEMENTS],
       allowEmptyLines: false,
     },
   ],

@@ -89,6 +89,12 @@
   "path-intellisense.mappings": {
     "/@": "${workspaceRoot}/src"
   },
+  // 括弧换行显示 start
+  // "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  // "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+  // "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  // "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+  // 括弧换行显示 end
   // default end
   // eslint start
   // 格式化快捷键 shirt+alt+F，有时可能需要多按几次
