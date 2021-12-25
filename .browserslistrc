@@ -1,0 +1,9 @@
+/**
+ * @description: Commonly used configuration
+ * @url https://github.com/browserslist/browserslist#readme
+ * @author: liejiayong(809206619@qq.com)
+ * @Date: 2021-12-25 11:55:34
+
+  npx browserslist -> to see what browsers was selected by your queries.
+
+ */
