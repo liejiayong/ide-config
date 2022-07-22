@@ -22,7 +22,7 @@ module.exports = {
   useTabs: false /* Indent lines with tabs instead of spaces. */,
   // Print semicolons at the ends of statements.
   semi: true,
-  singleQuote: true,
+  singleQuote: false,
   // such as, as-needed: {true: 0,0: 0,'qux-lorem': true};"consistent": 强制执行一致的引用风格需要引用对象字面值属性名称;preserve:保留用户输入
   quoteProps: 'as-needed',
   jsxSingleQuote: true,

@@ -256,7 +256,7 @@
       // "rangeEnd": Infinity,
       /* Range end */
       // parser:'babylon', /* 默认不打开 */
-      /* 
+      /*
           Specify which parser to use.
           parser: 'None'|'babel',
           Specify the file name to use to infer which parser to use.
