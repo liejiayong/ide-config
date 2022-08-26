@@ -174,7 +174,8 @@
   },
   // eslint配置文件 ,修改为你自己电脑上的文件位置，或者直接删除
   "eslint.options": {
-    "configFile": "E:/tanwan-file/tool-library/IDE/.eslintrc.js",
+    // "configFile": "E:/tanwan-file/tool-library/IDE/.eslintrc.js",
+    "configFile": "D:/github/tool-library/IDE/.eslintrc.js",
     "plugins": ["html"]
   },
   "eslint.workingDirectories": [{ "mode": "auto" }],
@@ -289,7 +290,8 @@
   /* prettier */
   "prettier.enable": true,
   "prettier.prettierPath": ".",
-  "prettier.configPath": "E:\\tanwan-file\\tool-library\\IDE\\prettier.config.js" /* tanwanpc-desk */,
+  //   "prettier.configPath": "E:\\tanwan-file\\tool-library\\IDE\\prettier.config.js" /* tanwanpc-desk */,
+  "prettier.configPath": "D:\\github\\ide-config\\prettier.config.js" /* tanwanpc-desk */,
 
   /* stylusSupremacy */
   "stylusSupremacy.insertColons": false, // 是否插入冒号
@@ -387,9 +389,8 @@
 
   /* autoprefixer -> css */
   "autoprefixer.formatOnSave": true,
-  "autoprefixer.browsers": ["last 8 versions", "> 0.01%"],
   // 设置autoprefixer 为zhi有.css 情况下才能保存生成兼容前缀
-  "autoprefixer.ignoreFilesOnSave": [
+  "autoprefixer.ignoreFiles": [
     "**/src/**.scss",
     "**/scss/**.scss",
     "**/css/**.scss",
@@ -443,7 +444,15 @@
   "liveServer.settings.donotShowInfoMsg": true,
 
   /* git sync */
-  "sync.gist": "d6f93d4248267f8875353551c3acef8c",
+  "sync.gist": "7e6ad7cc5a79a0bd91a3c31e98c44a6f",
+  "sync.autoUpload": true,
+  "sync.autoDownload": false,
+  "sync.forceDownload": false,
+  "sync.forceUpload": false,
+  "sync.quietSync": false,
+  "sync.removeExtensions": false,
+  "sync.syncExtensions": true,
+  "git.autofetch": true,
 
   /* language */
   "javascript.updateImportsOnFileMove.enabled": "always",
