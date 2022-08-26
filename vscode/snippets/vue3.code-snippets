@@ -1,0 +1,22 @@
+{
+  // Example:
+  "Print to console": {
+    "scope": "vue",
+    "prefix": "vue3",
+    "body": [
+      "<template>",
+      "  <div class=\"container\"></div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\" setup>",
+      "import { ref, reactive, computed, watch, onMounted } from \"vue\"",
+      "import { useRouter, useRoute } from \"vue-router\"",
+      "",
+      "</script>",
+      "<style lang=\"scss\" scoped>",
+      ".container{\n}",
+      "</style>"
+    ],
+    "description": "A Vue3 file template"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  // Example:
+  "Print to console": {
+    "scope": "javascript,typescript",
+    "prefix": "v3var",
+    "body": ["import { ref, reactive, computed, watch } from \"vue\""],
+    "description": "Log output to Vue3 variable define"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  // Example:
+  "Print to console": {
+    "scope": "vue,javascript,typescript",
+    "prefix": "v3router",
+    "body": ["import { useRouter, useRoute } from \"vue-router\""],
+    "description": "Log output to Vue3 router hook"
+  }
+}
