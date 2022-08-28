@@ -150,16 +150,7 @@
     "markdown"
   ],
   // 新版本的定义校验的类型
-  "eslint.probe": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "json",
-    "html",
-    "vue",
-    "markdown"
-  ],
+  "eslint.probe": ["javascript", "javascriptreact", "typescript", "typescriptreact", "json", "html", "vue", "markdown"],
 
   /* emmet */
   // 这一设置最大作用是：当输入的文本不属于Emmet定义的缩写规则时，依然允许使用Tab键进行缩进。此时会提示我自定义的缩写语句，以及各插件自定义的缩写语句.
@@ -289,9 +280,7 @@
     "autoAlready": true, // 只添加插件支持的语言以及用户通过`language`选项自定义的注释
     // 自动添加头部注释黑名单
     "prohibitAutoAdd": ["json"],
-    "prohibitItemAutoAdd": [
-      "项目的全称禁止项目自动添加头部注释, 使用快捷键自行添加"
-    ],
+    "prohibitItemAutoAdd": ["项目的全称禁止项目自动添加头部注释, 使用快捷键自行添加"],
     "wideSame": false, // 头部注释等宽设置
     "wideNum": 13, // 头部注释字段长度 默认为13
     // 头部注释第几行插入
@@ -357,14 +346,7 @@
    */
   "autoprefixer.formatOnSave": false,
   "autoprefixer.options": {
-    "browsers": [
-      "ie >= 8",
-      "firefox >= 20",
-      "chrome >= 28",
-      "Opera >= 10",
-      "last 2 versions",
-      "> 5%"
-    ]
+    "browsers": ["ie >= 8", "firefox >= 20", "chrome >= 28", "Opera >= 10", "last 2 versions", "> 5%"]
   },
   // 设置autoprefixer 为zhi有.css 情况下才能保存生成兼容前缀
   "autoprefixer.ignoreFiles": ["**.scss", "**.sass", "**.less", "**.stylus"],
@@ -387,15 +369,8 @@
     //   "savePath": "~/../css" // 指定编译完的css文件路径
     // }
   ],
-  "liveSassCompile.settings.excludeList": [
-    "/node_modules",
-    "/.vscode/",
-    "/**/_*.scss"
-  ], // 指定忽略的文件,支持正则
-  "liveSassCompile.settings.includeItems": [
-    "/**/_index*.scss",
-    "/**/index*.scss"
-  ],
+  "liveSassCompile.settings.excludeList": ["/node_modules", "/.vscode/", "/**/_*.scss"], // 指定忽略的文件,支持正则
+  "liveSassCompile.settings.includeItems": ["/**/_index*.scss", "/**/index*.scss"],
   "liveSassCompile.settings.autoprefix": ["> 0.01%", "last 12 versions"],
 
   /* liveServer */
@@ -413,14 +388,14 @@
   "sync.syncExtensions": true,
   "git.autofetch": true,
 
-    /* language */
+  /* language */
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.tsdk": "node_modules/typescript/lib",
 
   /* python */
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": true,
-  "python.languageServer": "Default"
+  "python.languageServer": "Default",
 
   /* Page ender flag */
   "fileEnd": true
