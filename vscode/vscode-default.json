@@ -2881,10 +2881,7 @@
   "debug.javascript.autoAttachFilter": "disabled",
 
   // Configures glob patterns for determining when to attach in "smart" `debug.javascript.autoAttachFilter` mode. `$KNOWN_TOOLS$` is replaced with a list of names of common test and code runners.
-  "debug.javascript.autoAttachSmartPattern": [
-    "!**/{node_modules,npm-global,.yarn,.nvm}/**",
-    "**/$KNOWN_TOOLS$/**"
-  ],
+  "debug.javascript.autoAttachSmartPattern": ["!**/{node_modules,npm-global,.yarn,.nvm}/**", "**/$KNOWN_TOOLS$/**"],
 
   // Configures whether property getters will be expanded automatically. If this is false, the getter will appear as `get propertyName` and will only be evaluated when you click on it.
   "debug.javascript.autoExpandGetters": false,

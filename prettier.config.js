@@ -1,19 +1,27 @@
+/*
+ * @Author: error: git config user.name && git config user.email & please set dead value or install git
+ * @Date: 2021-05-01 22:59:37
+ * @LastEditors: error: git config user.name && git config user.email & please set dead value or install git
+ * @LastEditTime: 2022-08-28 21:58:06
+ * @FilePath: \ide-config\prettier.config.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 const INLINE_ELEMENTS = [
-  'img',
-  'span',
-  'small',
-  'select',
-  'strong',
-  'sub',
-  'sup',
-  'textarea',
-  'var',
-  'b',
-  'a',
-  'code',
-  'abbr',
-  'big',
-  'dfn',
+  "img",
+  "span",
+  "small",
+  "select",
+  "strong",
+  "sub",
+  "sup",
+  "textarea",
+  "var",
+  "b",
+  "a",
+  "code",
+  "abbr",
+  "big",
+  "dfn",
 ];
 // docs options url: https://prettier.io/docs/en/options.html
 module.exports = {
@@ -24,10 +32,10 @@ module.exports = {
   semi: true,
   singleQuote: false,
   // such as, as-needed: {true: 0,0: 0,'qux-lorem': true};"consistent": 强制执行一致的引用风格需要引用对象字面值属性名称;preserve:保留用户输入
-  quoteProps: 'as-needed',
+  quoteProps: "as-needed",
   jsxSingleQuote: true,
   // es5: Trailing commas where valid in ES5 (objects, arrays, etc.)
-  trailingComma: 'es5',
+  trailingComma: "es5",
   // Print spaces between brackets in object literals. true Example: { foo: bar }.
   bracketSpacing: true,
   bracketSameLine: false,
@@ -36,13 +44,13 @@ module.exports = {
   jsxBracketSameLine: false,
   // "always" - Always include parens. Example: (x) => x
   // "avoid" - Omit parens when possible. Example: x => x
-  arrowParens: 'always',
+  arrowParens: "always",
   /* Range start */
   rangeStart: 0,
   rangeEnd: Infinity,
   /* Range end */
   // parser:'babylon', /* 默认不打开 */
-  /* 
+  /*
   Specify which parser to use.
 	parser: 'None'|'babel',
 	Specify the file name to use to infer which parser to use.
@@ -55,23 +63,23 @@ module.exports = {
   // 	"always" - Wrap prose if it exceeds the print width.
   // "never" - Do not wrap prose.
   // "preserve" - Wrap prose as-is. First available in v1.9.0
-  proseWrap: 'preserve',
+  proseWrap: "preserve",
   // "css" - Respect the default value of CSS display property.
-  htmlWhitespaceSensitivity: 'ignore',
+  htmlWhitespaceSensitivity: "ignore",
   vueIndentScriptAndStyle: false,
-  endOfLine: 'lf',
+  endOfLine: "lf",
   // Format embedded code if Prettier can automatically identify it.
-  embeddedLanguageFormatting: 'auto',
+  embeddedLanguageFormatting: "auto",
   // for IDE attriubte start
-  wrap_attributes: 'force-aligned',
+  wrap_attributes: "force-aligned",
   end_with_newline: true,
   // for IDE attriubte end
   // for vue format start
-  'vue/multiline-html-element-content-newline': [
-    'error',
+  "vue/multiline-html-element-content-newline": [
+    "error",
     {
       ignoreWhenEmpty: true,
-      ignores: ['pre', ...INLINE_ELEMENTS],
+      ignores: ["pre", ...INLINE_ELEMENTS],
       allowEmptyLines: false,
     },
   ],
