@@ -130,11 +130,10 @@
     "enable": true
   },
   // eslint配置文件 ,修改为你自己电脑上的文件位置，或者直接删除
-  "eslint.options": {
-    // "configFile": "E:/tanwan-file/tool-library/IDE/.eslintrc.js",
-    "configFile": "D:/github/tool-library/IDE/.eslintrc.js",
-    "plugins": ["html"]
-  },
+//   "eslint.options": {
+    // "overrideConfig ": "E:/tanwan-file/tool-library/IDE/.eslintrc.js",
+    // "overrideConfig ": "D:/github/tool-library/IDE/.eslintrc.js",
+//   },
   "eslint.workingDirectories": [{ "mode": "auto" }],
   "eslint.alwaysShowStatus": true,
   "eslint.packageManager": "yarn",
