@@ -1,15 +1,15 @@
 # editorconfig 使用简明
-# 
+#
 # 官方链接：http://editorconfig.org/
 #
 # editorconfig是一个编码风格规范的配置文件，用于告诉编辑器使用配置文件内指定的样式来呈现代码风格。
 #
 # 匹配规则：
 #     从上往下，即先定义的规则优先级比后定义的优先读取，所以。
-#     
+#
 #     如果.editorconfig文件没有进行某些配置，则使用编辑器默认的设置。
 #
-# 文件语法：  
+# 文件语法：
 #   editorConfig配置文件需要是UTF-8字符集编码的, 以回车换行或换行作为一行的分隔符
 #   斜线(/)被用作为一个路径分隔符，井号(#)或分号(;)被用作于注释. 注释需要与注释符号写在同一行
 #
@@ -39,23 +39,20 @@
 # 也不是说要连按 4 下空格；
 # 而是按 tab 键时，编辑器会自动输出 4 个空格的宽度，而不是之前默认的制表符 (\t)
 #
-
-root = true 
+root = true
 
 [*]
 # [*.{js,jsx,ts,tsx}]
-charset = utf-8 
-indent_style = space 
+charset = utf-8
+indent_style = space
 indent_size = 4
-end_of_line = lf 
+end_of_line = lf
 trim_trailing_whitespace = true
 insert_final_newline = true
-max_line_length = 120 
+max_line_length = 120
 
 [*.md]
 trim_trailing_whitespace = false
-# http://editorconfig.org
-root = true
 
 [Makefile]
 indent_style = tab
