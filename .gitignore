@@ -88,4 +88,4 @@ yarn-error.log
 .pnp.*
 
 dist
-
+*-error.log
