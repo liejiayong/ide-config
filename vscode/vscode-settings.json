@@ -368,7 +368,10 @@
     //   "savePath": "~/../css" // 指定编译完的css文件路径
     // }
   ],
-  "liveSassCompile.settings.excludeList": ["/node_modules", "/.vscode/", "/**/_*.scss"], // 指定忽略的文件,支持正则
+"liveSassCompile.settings.compileOnWatch": true,
+  "liveSassCompile.settings.excludeList": ["/node_modules", "/.vscode/",
+//   "/**/_*.scss"
+  ], // 指定忽略的文件,支持正则
   "liveSassCompile.settings.includeItems": ["/**/_index*.scss", "/**/index*.scss"],
   "liveSassCompile.settings.autoprefix": ["> 0.01%", "last 12 versions"],
 
