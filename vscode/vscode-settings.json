@@ -1,12 +1,14 @@
 {
   /* window */
   "window.zoomLevel": 0,
+  "window.menuBarVisibility": "compact",
 
   /* wordkbench */
   "workbench.colorTheme": "One Dark Pro", // 主题
   "workbench.iconTheme": "vscode-icons", // 文件主题
   "workbench.tree.indent": 16, // 树缩进
   "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "none",
 
   /* terminal */
   "terminal.integrated.defaultProfile.windows": "PowerShell", // 默认终端
@@ -68,7 +70,7 @@
     "strings": true // 在键入字符串时启用建议
   },
   "editor.suggestSelection": "first",
-  // 开启后可能与eslint冲突引起点击ctrl+s不保存
+  // 格式化。开启后可能与eslint冲突引起点击ctrl+s不保存
   "editor.codeActionsOnSave": {
     // For ESLint
     "source.fixAll.eslint": true,
@@ -351,6 +353,7 @@
   "autoprefixer.ignoreFiles": ["**.scss", "**.sass", "**.less", "**.stylus"],
 
   /* Live Sass Compiler */
+  "liveSassCompile.settings.compileOnWatch": true,
   "liveSassCompile.settings.showOutputWindow": true,
   "liveSassCompile.settings.showOutputWindowOn": "Information",
   "liveSassCompile.settings.generateMap": true, // 编译map
@@ -368,7 +371,6 @@
     //   "savePath": "~/../css" // 指定编译完的css文件路径
     // }
   ],
-"liveSassCompile.settings.compileOnWatch": true,
   "liveSassCompile.settings.excludeList": ["/node_modules", "/.vscode/",
 //   "/**/_*.scss"
   ], // 指定忽略的文件,支持正则
