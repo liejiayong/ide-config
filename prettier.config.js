@@ -1,9 +1,9 @@
 /*
  * @Author: error: git config user.name && git config user.email & please set dead value or install git
  * @Date: 2021-05-01 22:59:37
- * @LastEditors: error: git config user.name && git config user.email & please set dead value or install git
- * @LastEditTime: 2022-08-28 21:58:06
- * @FilePath: \ide-config\prettier.config.js
+ * @LastEditors: liejiayong(809206619@qq.com)
+ * @LastEditTime: 2023-06-08 16:49:14
+ * @FilePath: \tool-library\IDE\prettier.config.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 const INLINE_ELEMENTS = [
@@ -25,9 +25,9 @@ const INLINE_ELEMENTS = [
 ];
 // docs options url: https://prettier.io/docs/en/options.html
 module.exports = {
-  printWidth: 120,
+  printWidth: 150,
   tabWidth: 2 /* Specify the number of spaces per indentation-level. */,
-  useTabs: false /* Indent lines with tabs instead of spaces. */,
+  useTabs: true /* Indent lines with tabs instead of spaces. */,
   // Print semicolons at the ends of statements.
   semi: true,
   singleQuote: false,
@@ -65,7 +65,7 @@ module.exports = {
   // "preserve" - Wrap prose as-is. First available in v1.9.0
   proseWrap: "preserve",
   // "css" - Respect the default value of CSS display property.
-  htmlWhitespaceSensitivity: "ignore",
+  htmlWhitespaceSensitivity: "css",
   vueIndentScriptAndStyle: false,
   endOfLine: "lf",
   // Format embedded code if Prettier can automatically identify it.
