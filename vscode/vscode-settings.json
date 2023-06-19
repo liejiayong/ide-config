@@ -374,7 +374,7 @@
   "liveSassCompile.settings.excludeList": ["/node_modules", "/.vscode/",
 //   "/**/_*.scss"
   ], // 指定忽略的文件,支持正则
-  "liveSassCompile.settings.includeItems": ["/**/_index*.scss", "/**/index*.scss"],
+  "liveSassCompile.settings.includeItems": ["/**/_index*.scss", "/**/*.scss"],
   "liveSassCompile.settings.autoprefix": ["> 0.01%", "last 12 versions"],
 
   /* liveServer */
