@@ -1,0 +1,32 @@
+{
+	/* vscode settings */
+	"files.autoSave": "onFocusChange", // 自动保存
+	"files.eol": "\n",
+	"files.enableTrash": false,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"editor.formatOnPaste": true,
+	// 控制插件在文件点击保存是格式化。
+	// 开启后可能与eslint冲突引起点击ctrl+s不保存
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.fixAll.tslint": true,
+		"source.fixAll.stylelint": true
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	/* prettier */
+	"prettier.enable": true,
+	"prettier.prettierPath": "" /* 当使用node_modules时设置当前目录 "." */,
+	"prettier.configPath": "D:\\JyLie_Info\\Git_Data\\ide-config\\prettier.config.js",
+
+	/* Eslint */
+	"eslint.enable": false,
+	"eslint.workingDirectories": [{ "mode": "auto" }],
+	"eslint.probe": ["javascript", "javascriptreact", "typescript", "typescriptreact", "html", "vue", "markdown", "json"] /* 新版本设置 */,
+	"eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "html", "vue", "markdown", "json"] /* 旧版本设置 */
+	// eslint配置文件 ,修改为你自己电脑上的文件位置，或者直接删除
+	// "eslint.options": {
+	// 	"overrideConfigFile": "D:\\JyLie_Info\\Git_Data\\ide-config\\.eslintrc.js"
+	// }
+}
