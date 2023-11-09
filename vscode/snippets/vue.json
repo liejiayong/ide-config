@@ -1,35 +1,35 @@
 {
-  "Print to console": {
-    "prefix": "vue",
-    "body": [
-      "<template>",
-      "  <div class=\"container\"></div>",
-      "</template>",
-      "",
-      "<script>",
-      "export default {",
-      "  name: \"Page\",",
-      "  components: {},",
-      "  props: {\n    type: {\n      type: String,\n      default: \"\"\n    }\n  },",
-      "  data() {",
-      "    return {",
-      "    };",
-      "  },",
-      "  computed: {},",
-      "  watch: {},",
-      "  methods: {},",
-      "  created() {},",
-      "  beforeMount() {},",
-      "  mounted() {},",
-      "  activated() {},",
-      "  deactivated() {},",
-      "  beforeDestroy() {},",
-      "};",
-      "</script>",
-      "<style lang=\"scss\" scoped>",
-      ".container{\n}",
-      "</style>"
-    ],
-    "description": "A Vue file template"
-  }
+	"Print to console": {
+		"prefix": "vue",
+		"body": [
+			"<template>",
+			"  <div class=\"${1:Template}-cont\"></div>",
+			"</template>",
+			"",
+			"<script>",
+			"export default {",
+			"  name: \"Page\",",
+			"  components: {},",
+			"  props: {\n    type: {\n      type: String,\n      default: \"\"\n    }\n  },",
+			"  data() {",
+			"    return {",
+			"    };",
+			"  },",
+			"  computed: {},",
+			"  watch: {},",
+			"  methods: {},",
+			"  created() {},",
+			"  beforeMount() {},",
+			"  mounted() {},",
+			"  activated() {},",
+			"  deactivated() {},",
+			"  beforeDestroy() {},",
+			"};",
+			"</script>",
+			"<style lang=\"scss\" scoped>",
+			".${1:Template}-cont{\n}",
+			"</style>"
+		],
+		"description": "A Vue file template"
+	}
 }
